@@ -1,0 +1,21 @@
+{
+  "name": "darkfire-hub-payments",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DARKFIRE HUB UPI QR payment with UTR submission and manual admin approval",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "qrcode": "^1.5.4"
+  }
+}
